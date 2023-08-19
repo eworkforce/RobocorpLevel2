@@ -1,0 +1,86 @@
+{
+    "Address": {
+        "screenshot": ".images\\address-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "id",
+        "type": "browser",
+        "value": "address"
+    },
+    "Alertbuttonsbtndark": {
+        "screenshot": ".images\\alertbuttonsbtndark-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "css",
+        "type": "browser",
+        "value": ".alert-buttons > .btn-dark"
+    },
+    "Containercontainer": {
+        "screenshot": ".images\\containercontainer-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "css",
+        "type": "browser",
+        "value": ".container > .container"
+    },
+    "Dividordercompletiondiv": {
+        "screenshot": ".images\\dividordercompletiondiv-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//div[@id='order-completion']/div"
+    },
+    "Head": {
+        "screenshot": ".images\\head-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "id",
+        "type": "browser",
+        "value": "head"
+    },
+    "Legs": {
+        "screenshot": ".images\\legs-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//label[contains(.,'3. Legs:')]/../input"
+    },
+    "Order": {
+        "screenshot": ".images\\order-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "id",
+        "type": "browser",
+        "value": "order"
+    },
+    "Orderanother": {
+        "screenshot": ".images\\orderanother-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "id",
+        "type": "browser",
+        "value": "order-another"
+    },
+    "Orderyourrobot": {
+        "screenshot": ".images\\orderyourrobot-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/",
+        "strategy": "link",
+        "type": "browser",
+        "value": "Order your robot!"
+    },
+    "Preview": {
+        "screenshot": ".images\\preview-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "id",
+        "type": "browser",
+        "value": "preview"
+    },
+    "Radionthchild": {
+        "screenshot": ".images\\radionthchild-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "css",
+        "type": "browser",
+        "value": ".radio:nth-child(3)"
+    },
+    "Robotpreview": {
+        "screenshot": ".images\\robotpreview-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "id",
+        "type": "browser",
+        "value": "robot-preview"
+    }
+}
